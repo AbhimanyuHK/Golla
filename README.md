@@ -4,6 +4,12 @@
 * A SQL Query free ORM
 * Support SQLAlchemy ORM 
 
+
+### Install Golla
+
+    pip install Golla
+
+
 ### Create Connection 
 
 ```
