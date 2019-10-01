@@ -50,7 +50,7 @@ class Employee(Base, BaseChild):
 
 ```
 e = Employee()
-e.EMPID = 203
+e.EMPID = 100
 e.Age = 20
 e.NAME = "b"
 
@@ -73,5 +73,5 @@ emps = Employee().get_all()
 ### Delete records from table by id
 
 ```
-Employee().delete_by_id(EMPID=201)
+Employee().delete_by_id(EMPID=100)
 ```

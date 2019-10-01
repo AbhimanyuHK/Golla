@@ -29,7 +29,7 @@ class Employee(Base, BaseChild):
 
 
 e = Employee()
-e.EMPID = 203
+e.EMPID = 100
 e.Age = 20
 e.NAME = "b"
 
@@ -41,5 +41,5 @@ print(Employee().get_by_id(EMPID=100).__dict__)
 print(Employee().get_all())
 # [<__main__.Employee object at 0x0000014258031E48>, <__main__.Employee object at 0x0000014258031EB8>]
 
-Employee().delete_by_id(EMPID=201)
+Employee().delete_by_id(EMPID=100)
 
